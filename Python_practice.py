@@ -40,11 +40,11 @@ counties_dict = {"Arapahoe": 422829, "Denver": 463353, "Jefferson": 432438}
 # for voters in counties_dict.values():
 #     print(voters)
 
-for county, voters in counties_dict.items():
+#for county, voters in counties_dict.items():
 #     #print(county, voters)
 #     print(county + "county has " + str(voters) + " registered voters.")
     #could also use the follow with the "f" to not have to use str. but then need to use {}
-    print(f"{county} county has {voters} registered voters.")
+    #print(f"{county} county has {voters} registered voters.")
 
 # voting_data = [{"county":"Arapahoe", "registered_voters": 422829},
 #                 {"county":"Denver", "registered_voters": 463353},
