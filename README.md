@@ -34,7 +34,7 @@ The analysis of the election show that:
   * Raymon Anthony Doane received 3.1% of the vote and 11,606 number of votes. 
 * The winner of the election was Diana DeGette, who received 73.8% of the vote and 272,892 number of votes. 
 
-*The counties were:
+* The counties were:
   * Jefferson
   * Denver
   * Arapahoe
@@ -45,3 +45,4 @@ The analysis of the election show that:
 * The largest county turnout was Denver, who was 82.8% of the voters with 306,055 number of votes.
 
 ## Challenge Summary
+This python code can be used, with some modifications, for any election. This script can be used to determine winners of elections for much smaller elections, such as county elections. In that case, it could be adjusted to see which town the majority of the voters come from. It could even be used for much larger, even statewide elections. If it were to be used to determine the winner a statewide election, not much of the code would need to be adjusted, there would just be a much larger csv file and many more counties and possibly more candidates to sort through. It could also be adjusted to determine the winners of any type of vote, such as yes/no type of votes. The python script would just need to count which is the majority of the two options, and could calculate the winning the percentage the same type of way.
